@@ -133,13 +133,14 @@ section.porque-nos > .center > p{
         margin-right: 0;
     }
 
-    section: .marcas{
-        text-align: center;
+    section.marcas > .center{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
     }
 
     section.marcas img{
+        max-width: 300px;
         width: 100%;
-        max-width: 200%;
-
     }
 }
