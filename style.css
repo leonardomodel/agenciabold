@@ -65,3 +65,81 @@ section.main{
 }
 
 .mockup img{max-width: 100%;}
+
+section.marcas{
+    padding: 100px 0;
+}
+
+section.marcas img{
+    width: 20%;
+}
+
+section.porque-nos{
+    padding: 40px 0;
+    background-color: #FBFCFE;
+}
+
+section.porque-nos > .center{
+    max-width: 1280px;
+}
+
+
+section.porque-nos > .center > h2{
+    font-size: 64px;
+    text-align: center;
+    width: 100%;
+}
+
+section.porque-nos > .center > p{
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+    width: 100%;
+}
+
+.diferenciais{
+    display: flex;
+    margin-top: 50px;
+}
+
+.box-diferenciais{
+    box-shadow: 0px 20px 40px #2426721C;
+    width: 31%;
+    margin-right: 2%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.box-diferenciais h3{
+    font-size: 28px;
+    color: black;
+    margin: 20px 0;
+}
+
+.box-diferenciais p{
+    font-size: 13px;
+    color: #7E92AC;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .diferenciais{
+        flex-wrap: wrap;
+    }
+
+    .box-diferenciais{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    section: .marcas{
+        text-align: center;
+    }
+
+    section.marcas img{
+        width: 100%;
+        max-width: 200%;
+
+    }
+}
