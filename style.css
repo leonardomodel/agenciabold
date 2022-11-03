@@ -122,6 +122,37 @@ section.porque-nos > .center > p{
     margin-bottom: 20px;
 }
 
+section.cta{
+    background-image: url('images/banner_meio.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10px;
+    min-height: 200px;
+    color: white;
+    text-align: center;
+}
+
+section.cta h2,
+section.cta h4{
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+section.cta h2{
+    font-size: 30px;
+}
+
+section.cta a{
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 17px;
+    background: #FFDD33;
+    text-decoration: none;
+    color: #0F3FD3;
+}
+
 @media screen and (max-width: 768px) {
 
     .diferenciais{
