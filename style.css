@@ -153,7 +153,49 @@ section.cta a{
     color: #0F3FD3;
 }
 
+section.beneficios{
+    padding: 50px 0;
+}
+
+.lista-beneficios{
+    width: 40%;.
+    margin-top: 40px;
+}
+
+.lista-beneficios h1{
+    color: black;
+    font-size: 40px;
+}
+
+.lista-beneficios p{
+    color: #7E92AC;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.lista-beneficios span{
+    display: inline-block;
+    width: calc(100% - 70px);
+}
+
+.lista-beneficios img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+}
+
+.img-beneficios{
+    width: 60%;
+}
+
+.img-beneficios img{max-width: 100%;}
+
 @media screen and (max-width: 768px) {
+
+    .lista-beneficios, .img-beneficios{
+        width: 100%;
+        margin-bottom: 30px;
+    }
 
     .diferenciais{
         flex-wrap: wrap;
