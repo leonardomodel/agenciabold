@@ -65,7 +65,7 @@
         <section class="cta">
                 <h2>Vamos começar seu projeto?</h2>
                 <h4>Fale agora mesmo com um de nossos consultores!</h4>
-                <a href="/contato">Entrar em Contato</a>
+                <a href="/contato">ENTRAR EM CONTATO</a>
         </section><!--cta-->
         <section class="beneficios">
             <div style="max-width: 1280px;" class="center">
@@ -75,11 +75,78 @@
                     <p><img src="images/checklist.png" /><span>Garantia de resultados, pague de acordo com o desempenho do seu projeto ou campanha.</span></p>
                     <p><img src="images/checklist.png" /><span>Equipe qualificada. Nossos profissionais possuem vasta experiência nacional e no exterior.</span></p>
                     <p><img src="images/checklist.png" /><span>Acreditamos que trabalhos criativos são os que mais se destacam em meio a multidão. Saia do feijão com arroz.</span></p>
+                    <a href="/contato">ENTRAR EM CONTATO</a>
                 </div>
                 <div class="img-beneficios">
                     <img src="images/macbook.png" />
                 </div>
             </div><!--center-->
         </section><!--beneficios-->
+        <section class="depoimentos">
+            <h1>Depoimentos</h1>
+            <div style="display:block;" class="center">
+                <br />
+                <div class="container-slider">
+                    <div class="container-slider-single">
+                        <img src="images/DEPOIMENTO1.png" />
+                        <h3>Miriam Souza</h3>
+                        <p>O trabalho da Agência Bold foi fundamental para o nosso posicionamento e nossas estratégias de 2021. Juntos tivemos excelentes resultados e nossos clientes ficaram surpresos com a qualidade. Foi um trabalho incrível feito a muitas mãos pela Uber e pelo time da Agência Bold.</p>
+                        <img src="images/RATE.svg" />   
+                    </div>
+                    <div class="container-slider-single">
+                        <img src="images/DEPOIMENTO2.png" />
+                        <h3>Lucas Mendes</h3>
+                        <p>Buscamos a Agência Bold para nos ajudar com campanhas de growth marketing focadas em um público extremamente específico. O produto teve faturamento maior que 300%.</p>
+                        <img src="images/RATE.svg" />   
+                    </div>
+                    <div class="container-slider-single">
+                        <img src="images/DEPOIMENTO3.png" />
+                        <h3>Zaya Menphis</h3>
+                        <p>A estratégia de lançamento da marca não seria a mesma sem o trabalho comprometido da Agência Bold. Obrigado ao Vinícius, que abraçou nossos desafios como um de nós.</p>
+                        <img src="images/RATE.svg" />   
+                    </div>
+                    <div class="container-slider-single">
+                        <img src="images/DEPOIMENTO1.png" />
+                        <h3>Miriam Souza</h3>
+                        <p>O trabalho da Agência Bold foi fundamental para o nosso posicionamento e nossas estratégias de 2021. Juntos tivemos excelentes resultados e nossos clientes ficaram surpresos com a qualidade. Foi um trabalho incrível feito a muitas mãos pela Uber e pelo time da Agência Bold.</p>
+                        <img src="images/RATE.svg" />   
+                    </div>
+                    <div class="container-slider-single">
+                        <img src="images/DEPOIMENTO2.png" />
+                        <h3>Lucas Mendes</h3>
+                        <p>Buscamos a Agência Bold para nos ajudar com campanhas de growth marketing focadas em um público extremamente específico. O produto teve faturamento maior que 300%.</p>
+                        <img src="images/RATE.svg" />   
+                    </div>
+                    <div class="container-slider-single">
+                        <img src="images/DEPOIMENTO3.png" />
+                        <h3>Zaya Menphis</h3>
+                        <p>A estratégia de lançamento da marca não seria a mesma sem o trabalho comprometido da Agência Bold. Obrigado ao Vinícius, que abraçou nossos desafios como um de nós.</p>
+                        <img src="images/RATE.svg" />   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="jquery.js"></script>
+        <script src="slick.min.js"></script>
+        <script>
+            $('.container-slider').slick({
+                dots: true,
+                arrows: false,
+                speed: 1000,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                pauseOnHover: false,
+                responsive: [
+                            {
+                                breakpoint: 768,
+                                settings: {
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1,
+                                }
+                            }],
+            })
+        </script>
     </body>
 </html>
